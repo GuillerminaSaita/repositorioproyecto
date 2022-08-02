@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Te cambie el section por un div, porque section es una etiqueta semantica importante
+    Para estas cosas que solo necesitas un contenedor usa div tranqui-->
+    <div class="layout">
+      <header class="header">
+        <!-- lo que quiero que quede en un solo renglon,
+            lo pongo dentro de un mismo div,
+            y despues en css lo acomodas con al class .fila-->
+        <div class="fila">
+          <a href="index.html">
+            <img class="logo" src="./img/logo.jpeg" alt="logo marca" />
+          </a>
+
+          <div class="principal">
+            <h1>Alcántara Aromas</h1>
+            <h2>resaltando lo esencial</h2>
+          </div>
+        </div>
+
+        <nav>
+          <ul class="menu">
+            <li class="inicio"><a href="index.html">Inicio</a></li>
+            <li class="productos"><a href="./pages/productos.html">Productos</a></li>
+            <li class="galeria"><a href="./pages/galeria.html">Galería</a></li>
+            <li class="contacto"><a href="./pages/contacto.html">Contacto</a></li>
+            <li class="mapa"><a href="./pages/mapa.html">Mapa</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main class="main">
+        <img src="./img/logo2.jpeg" alt="" class="logo_dos" />
+
+        <div class="main_texto">
+          <h3>Sobre nosotras</h3>
+          <p>
+            Este empredimiento nace luego de haber estudiado aromaterapia,
+            cosmética natural, terapia floral, perfumería fina; en diversos
+            cursos durante años de aprendizaje. Luego de ver reflejada esa
+            dedicación en la adquisición de conocimientos profundos sobre cada
+            temática, he decidido plasmar mis herramientas en Alcántara, para
+            poder llegar a más personas y poder ofrecerles nuestra esencia en
+            productos con aceites esenciales naturales procesados con mucho amor
+            para ustedes...
+          </p>
+        </div>
+      </main>
+
+      <footer>
+        <p>Contactános en las redes</p>
+      </footer>
+    </div>
+  </body>
+</html>
